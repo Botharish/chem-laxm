@@ -1,1 +1,6 @@
 node_modules
+
+# Local build and OS files
+.next
+.DS_Store
+node_modules
