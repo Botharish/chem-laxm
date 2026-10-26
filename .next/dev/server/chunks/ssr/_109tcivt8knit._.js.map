@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/harishyadhev/Documents/immthiyas/app/layout.tsx"],"sourcesContent":["import './globals.css';\nimport './overrides.css';\nimport type { Metadata } from 'next';\nexport const metadata: Metadata = { title: 'ChemSphere — Interactive Chemical Science Explorer', description: 'Explore chemistry through compounds, reactions, calculators and molecular models.' };\nexport default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) { return <html lang=\"en\"><body>{children}</body></html>; }\n"],"names":["metadata","title","description","RootLayout","children","lang"],"mappings":";;;;;;;;;;AAGO,MAAMA,WAAqB;IAAEC,OAAO;IAAsDC,aAAa;AAAoF;AACnL,SAASC,WAAW,EAAEC,QAAQ,EAA2C;IAAI,qBAAO,8OAAC;QAAKC,MAAK;kBAAK,cAAA,8OAAC;sBAAMD;;;;;;;;;;;AAAyB"}},
+    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":["file:///Users/harishyadhev/Documents/immthiyas/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}
